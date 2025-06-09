@@ -1,0 +1,20 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Page
+  Id: g=8da13f6ace2530aafca0b4962605ccfb
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#f0f0f0"
+  - Name: Style
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "Default"
+- File: LoginForm/LoginForm.yaml
+- File: UserEditor/UserEditor.yaml
