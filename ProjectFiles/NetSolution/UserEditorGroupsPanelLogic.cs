@@ -9,6 +9,9 @@ using FTOptix.Core;
 using FTOptix.WebUI;
 using FTOptix.Report;
 using FTOptix.OPCUAClient;
+using FTOptix.Alarm;
+using FTOptix.SerialPort;
+using FTOptix.EventLogger;
 #endregion
 
 public class UserEditorGroupsPanelLogic : BaseNetLogic

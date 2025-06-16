@@ -15,6 +15,9 @@ using FTOptix.Store;
 using FTOptix.WebUI;
 using FTOptix.Report;
 using FTOptix.OPCUAClient;
+using FTOptix.Alarm;
+using FTOptix.SerialPort;
+using FTOptix.EventLogger;
 #endregion
 
 public class RecipesEditorComboBoxLogic : BaseNetLogic
